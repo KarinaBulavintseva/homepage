@@ -175,9 +175,13 @@ body {
 
 /* Experience and additional info styles */
 
-.experiences {
-  flex: 1 1 50%;
+.background-info {
+  flex: 1 1 60%;
   margin-right: 50px;
+}
+
+.experiences {
+  margin-bottom: 20px;
 }
 
 .experiences__header {
@@ -189,6 +193,23 @@ body {
 .experiences__description {
   color: var(--secondary-text-color);
   padding: 0 15px;
+}
+
+.education-header {
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+}
+
+.education-courses {
+  color: var(--secondary-text-color);
+}
+
+.education-courses-item {
+  color: var(--secondary-text-color);
+}
+
+.education-courses-item-duration {
+  font-size: 0.85rem;
 }
 
 .additional-info {
